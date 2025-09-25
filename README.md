@@ -1,0 +1,1 @@
+# Retail Store Sample App - GitOps with Amazon EKS Auto Mode
