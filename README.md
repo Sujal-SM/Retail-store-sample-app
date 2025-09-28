@@ -1,6 +1,7 @@
 # Retail Store Sample App - GitOps with Amazon EKS Auto Mode
 this is an automated app which will contain devsecops , terraform , docker , gitops , argocd and eks cluster 
 we will make k8s file from helm
+helm is a package manager
 
 ### **Required Tools**
 
