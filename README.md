@@ -1,5 +1,5 @@
 # Retail Store Sample App - GitOps with Amazon EKS Auto Mode
-
+this is an automated app
 
 ### **Required Tools**
 
