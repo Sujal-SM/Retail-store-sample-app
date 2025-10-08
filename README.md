@@ -14,5 +14,16 @@ helm is a package manager
 | **Helm**      | 3.0+    | [Install Guide](https://helm.sh/docs/intro/install/)                                 |
 | **Git**       | 2.0+    | [Install Guide](https://git-scm.com/downloads) 
 
-lets begin with the project 
------
+Project Overview
+
+The goal of this project is to build an end-to-end automated CI/CD pipeline using GitOps principles.
+It integrates DevSecOps, Terraform, Docker, Helm, ArgoCD, and Amazon EKS Auto Mode to manage and secure application deployment efficiently.
+
+Architecture Components
+1.	Retail Store App — A containerized sample web app.
+2.	Docker — Builds and packages app images.
+3.	Terraform — Provisions AWS infrastructure and EKS cluster.
+4.	Helm — Manages Kubernetes manifests as versioned charts.
+5.	ArgoCD — Automates GitOps deployment to EKS.
+6.	EKS Auto Mode — Dynamically manages node provisioning.
+7.	DevSecOps Tools — Security scanning integrated into the CI/CD pipeline (e.g., Trivy, Checkov).
