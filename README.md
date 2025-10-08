@@ -13,3 +13,6 @@ helm is a package manager
 | **Docker**    | 20.0+   | [Install Guide](https://docs.docker.com/get-docker/)                                 |
 | **Helm**      | 3.0+    | [Install Guide](https://helm.sh/docs/intro/install/)                                 |
 | **Git**       | 2.0+    | [Install Guide](https://git-scm.com/downloads) 
+
+lets begin with the project 
+-----
