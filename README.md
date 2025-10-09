@@ -2,9 +2,7 @@
 This project demonstrates a Retail Store microservices application deployed on Amazon EKS (Elastic Kubernetes Service) using a DevSecOps + GitOps pipeline.
 The infrastructure is fully automated with Terraform, and application delivery is handled through ArgoCD using Helm charts for Kubernetes manifests.
 
-this is an automated app which will contain devsecops , terraform , docker , gitops , argocd and eks cluster 
-we will make k8s file from helm
-helm is a package manager
+
 
 ### **Required Tools**
 
