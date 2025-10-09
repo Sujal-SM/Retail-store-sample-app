@@ -29,3 +29,5 @@ Architecture Components
 6.	EKS Auto Mode — Dynamically manages node provisioning.
 7.	DevSecOps Tools — Security scanning integrated into the CI/CD pipeline (e.g., Trivy, Checkov).
 
+💡 This is an automated application integrating DevSecOps, Terraform, Docker, GitOps, ArgoCD, and EKS Cluster.
+Kubernetes manifests will be generated using Helm, which acts as a package manager for Kubernetes.
