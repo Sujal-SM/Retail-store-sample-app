@@ -31,3 +31,8 @@ Architecture Components
 
 💡 This is an automated application integrating DevSecOps, Terraform, Docker, GitOps, ArgoCD, and EKS Cluster.
 Kubernetes manifests will be generated using Helm, which acts as a package manager for Kubernetes.
+
+🧑‍💻 Author
+
+👤 Sujal Malhotra
+DevSecOps Engineer | Cloud & Automation Enthusiast
