@@ -19,6 +19,15 @@ Project Overview
 
 The goal of this project is to build an end-to-end automated CI/CD pipeline using GitOps principles.
 It integrates DevSecOps, Terraform, Docker, Helm, ArgoCD, and Amazon EKS Auto Mode to manage and secure application deployment efficiently.
+The Retail Store Sample App demonstrates a modern microservices architecture deployed on AWS EKS using GitOps principles. The application consists of multiple services that work together to provide a complete retail store experience:
+
+
+- **UI Service**: Java-based frontend
+- **Catalog Service**: Go-based product catalog API
+- **Cart Service**: Java-based shopping cart API
+- **Orders Service**: Java-based order management API
+- **Checkout Service**: Node.js-based checkout orchestration API
+
 
 Architecture Components
 1.	Retail Store App — A containerized sample web app.
