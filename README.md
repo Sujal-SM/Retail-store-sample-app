@@ -35,4 +35,3 @@ Kubernetes manifests will be generated using Helm, which acts as a package manag
 🧑‍💻 Author
 
 👤 Sujal Malhotra
-DevSecOps Engineer | Cloud & Automation Enthusiast
