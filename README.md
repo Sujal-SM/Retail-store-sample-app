@@ -1,6 +1,22 @@
 # Retail Store Sample App - GitOps with Amazon EKS Auto Mode
 This project demonstrates a Retail Store microservices application deployed on Amazon EKS (Elastic Kubernetes Service) using a DevSecOps + GitOps pipeline.
-The infrastructure is fully automated with Terraform, and application delivery is handled through ArgoCD using Helm charts for Kubernetes manifests and manifest files.
+The infrastructure is fully automated with Terraform, and application delivery is handled through ArgoCD using Helm charts for Kubernetes manifests and manifest files
+
+Table of Contents
+
+Overview
+Architecture
+Prerequisites
+Quick Start
+Branch Strategy
+Getting Started
+GitOps Workflow
+EKS Auto Mode
+Infrastructure Components
+CI/CD Pipeline
+Monitoring and Observability
+Cleanup
+Troubleshooting
 
 
 
@@ -40,6 +56,7 @@ Architecture Components
 
 💡 This is an automated application integrating DevSecOps, Terraform, Docker, GitOps, ArgoCD, and EKS Cluster.
 Kubernetes manifests will be generated using Helm, which acts as a package manager for Kubernetes.
+
 
 🧑‍💻 Author
 
