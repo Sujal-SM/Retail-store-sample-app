@@ -28,7 +28,7 @@ module "eks_addons" {
   ingress_nginx = {
     most_recent = true
     namespace   = "ingress-nginx"
-    
+
     # Basic configuration
     set = [
       {
@@ -56,7 +56,7 @@ module "eks_addons" {
         value = "256Mi"
       }
     ]
-    
+
     # AWS Load Balancer specific annotations
     set_sensitive = [
       {
@@ -89,23 +89,23 @@ module "eks_addons" {
   # =============================================================================
   # MONITORING STACK
   # =============================================================================
-  
+
   enable_kube_prometheus_stack = var.enable_monitoring
 
-    kube_prometheus_stack = {
+  kube_prometheus_stack = {
     most_recent = true
     namespace   = "monitoring"
-    }
+  }
 
 
   # AWS LOAD BALANCER CONTROLLER
   # =============================================================================
   enable_aws_load_balancer_controller = true
 
-    aws_load_balancer_controller = {
+  aws_load_balancer_controller = {
     most_recent = true
     namespace   = "kube-system"
-    }
+  }
 
   depends_on = [module.retail_app_eks]
 }
