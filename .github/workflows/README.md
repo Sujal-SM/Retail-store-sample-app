@@ -5,7 +5,7 @@ This directory contains the complete CI/CD pipeline for Retail Store following D
 ## 🚀 Workflows Overview
 
 ### 1. **deploy.yml** - Main CI/CD Pipeline
-**Triggers:** Push to gitops branch, Manual dispatch
+**Triggers:** Push to main branch, Manual dispatch
 **Purpose:** Automated build, test, and deployment
 
 **Stages:**
@@ -23,6 +23,7 @@ This directory contains the complete CI/CD pipeline for Retail Store following D
 - ✅ **GitOps integration** - Auto Helm value updates
 - ✅ **Zero-downtime deployment** - Rolling updates
 
+
 ## Workflows
 
 ### `deploy.yml` - Main Deployment Pipeline
@@ -30,7 +31,7 @@ This directory contains the complete CI/CD pipeline for Retail Store following D
 **Purpose**: Automated GitOps deployment pipeline that builds, pushes, and updates services when code changes.
 
 **Triggers**:
-- Push to `gitops` branch with changes in `src/**`
+- Push to `main` branch with changes in `src/**`
 - Manual workflow dispatch (builds all services)
 
 **Process Flow**:
@@ -91,7 +92,7 @@ sequenceDiagram
     participant ArgoCD as ArgoCD
     participant EKS as EKS Cluster
 
-    Dev->>GH: Push code to gitops branch
+    Dev->>GH: Push code to main branch
     GH->>GH: Detect changed services
     GH->>ECR: Build & push Docker images
     GH->>Repo: Update Helm values.yaml
@@ -125,7 +126,7 @@ Configure these in your GitHub repository settings:
 
 ### Automatic Deployment
 1. Make changes to any service in `src/`
-2. Push to `gitops` branch
+2. Push to `main` branch
 3. Workflow automatically detects changes and deploys
 
 ### Manual Deployment
@@ -185,7 +186,7 @@ graph LR
 ```yaml
 on:
   push:
-    branches: [your-branch]  # Change from 'gitops'
+    branches: [your-branch]  # Change from 'main'
 ```
 
 ### Custom ECR Repository Names
@@ -219,7 +220,7 @@ Configure these secrets in your repository:
 ## 📊 DevOps Metrics Tracked
 
 ### DORA Metrics
-- **Deployment Frequency**: Every push to gitops branch
+- **Deployment Frequency**: Every push to main branch
 - **Lead Time**: Code commit to deployment
 - **MTTR**: Automated rollback capabilities
 - **Change Failure Rate**: Tracked via deployment success/failure
@@ -234,7 +235,7 @@ Configure these secrets in your repository:
 ### Development Workflow
 ```mermaid
 graph LR
-    A[Code Change] --> B[Push to gitops]
+    A[Code Change] --> B[Push to main]
     B --> C[CI Pipeline]
     C --> D[Build Images]
     D --> E[Push to ECR]
