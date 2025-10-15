@@ -12,6 +12,12 @@ variable "cluster_name" {
   
 }
 
+variable "region" {
+  description = "Region for aws provider"
+  type = string
+  default = "ap-south-1"
+}
+
 variable "vpc_cidr" {
   description = "CIDR block for the VPC"
   type        = string
@@ -48,5 +54,17 @@ variable "enable_monitoring" {
   description = "Enable monitoring for the EKS cluster"
   type        = bool
   default     = true
-  
+}
+
+variable "argocd_namespace" {
+  description = "Namespace to install ArgoCD"
+  type        = string
+  default     = "argocd"
+}
+
+
+variable "argocd_chart_version" {
+  description = "ArgoCD Helm chart version"
+  type        = string
+  default     = "5.51.6"
 }
