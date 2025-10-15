@@ -23,7 +23,7 @@ spec:
     - group: 'cert-manager.io'
       kind: ClusterIssuer
   
-  namespaceResourceWhitelist::
+  namespaceResourceWhitelist:
     - group: ''
       kind: ConfigMap
     - group: ''
