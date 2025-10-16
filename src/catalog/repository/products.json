@@ -1,86 +1,86 @@
 [
   {
     "id": "cc789f85-1476-452a-8100-9e74502198e0",
-    "name": "Temporal Tickstopper",
-    "description": "Stop time for 30 seconds with this vintage-styled pocket watch. Features mechanical wind-up power reserve and temporal disruption failsafe. Includes leather carrying pouch and temporal paradox insurance.",
-    "price": 250,
+    "name": "EQUES ALL BLACK",
+    "description": "The definitive blackout timepiece: The EQUES ALL BLACK delivers a minimalist, stealth profile, fusing modern design with enduring style.",
+    "price": 3499,
     "tags": ["accessories"]
   },
   {
     "id": "87e89b11-d319-446d-b9be-50adcca5224a",
-    "name": "Up & Away Parasol",
-    "description": "This innocent-looking umbrella conceals a powerful grappling hook system with 50-meter range. Features weather-resistant fabric, built-in compass, and automatic hook retraction. Includes spare hooks and basic parkour instructions.",
-    "price": 125,
-    "tags": ["clothing"]
+    "name": "GT3RS OCTA with BLUE brakes calibrators | Gyro Watch",
+    "description": "Track-ready timekeeping: Inspired by the legendary GT3RS, this Gyro Watch features a kinetic spinning wheel and high-performance Blue brake caliper detail, built for the purist.",
+    "price": 1990,
+    "tags": ["accessories"]
   },
   {
     "id": "4f18544b-70a5-4352-8e19-0d070f46745d",
-    "name": "Levitator Oxfords",
-    "description": "Classic Oxford-style shoes concealing cutting-edge anti-gravity technology. Features wall-walking capability, ceiling-escape mode, and auto-stabilization. Available in black or brown. Not recommended for formal dances.",
-    "price": 210,
-    "tags": ["clothing"]
+    "name": "RS7 OCTA RED with RED brakes calibrators | Gyro Watch",
+    "description": "A relentless Red Gyro Watch that demands attention, featuring a kinetic spinning dial and matching Red brake caliper details for pure, high-performance style.",
+    "price": 1990,
+    "tags": ["accessories"]
   },
   {
     "id": "79bce3f3-935f-4912-8c62-0d2f3e059405",
-    "name": "Facechanger Formal Wear",
-    "description": "Transform your appearance instantly with this high-tech bowtie. Features 100 pre-loaded faces, custom face scanning capability, and voice modulation. Battery lasts up to 8 hours on a single charge.",
-    "price": 70,
-    "tags": ["clothing"]
+    "name": "RS7 OCTA with BLUE brakes calibrators | Gyro Watch",
+    "description": "Mechanical mastery meets a pop of color: A kinetic Gyro Watch dial accented by vibrant Blue brake caliper details, capturing high-performance precision on your wrist.",
+    "price": 1990,
+    "tags": ["accessories"]
   },
   {
     "id": "d27cf49f-b689-4a75-a249-d373e0330bb5",
-    "name": "The Quiet Quill",
-    "description": "Control sound waves with this sophisticated pen. Create silence bubbles or emit targeted sonic blasts with simple clicks. Includes premium ink cartridge and electromagnetic interference shield. Actually writes quite smoothly.",
-    "price": 150,
+    "name": "GODZILLA with GREEN brakes calibrators | Gyro Watch",
+    "description": "A monster of a timepiece: This dynamic Gyro Watch captures raw power, with a spinning dial highlighted by a sharp, electrifying flash of Green caliper detail.",
+    "price": 1690,
     "tags": ["accessories"]
   },
   {
     "id": "1ca35e86-4b4c-4124-b6b5-076ba4134d0d",
-    "name": "The Forgetter MK-II",
-    "description": "These stylish shades pack a powerful amnesia-inducing flash that erases the last 60 seconds of memory from anyone in view. Includes UV protection and auto-darkening lenses. Not recommended for use during important meetings.",
-    "price": 225,
+    "name": "RS7 OCTA BLACK with RED brakes calibrators | Gyro Watch",
+    "description": "A dynamic, all-black Gyro Watch featuring the iconic spinning wheel and a flash of Red brake caliper engineering inspired by the world's fastest supercars.",
+    "price": 1990,
     "tags": ["accessories"]
   },
   {
     "id": "631a3db5-ac07-492c-a994-8cd56923c112",
-    "name": "The Morning Teleporter",
-    "description": "Create instant portals to pre-programmed locations with this ceramic marvel. Perfect for quick escapes or coffee runs. Features thermal insulation and spill-proof portal containment. Dishwasher safe on low heat.",
-    "price": 40,
+    "name": "GT3RS OCTA with RED brakes calibrators | Gyro Watch",
+    "description": "The GT3RS OCTA is pure kinetic energy, featuring a dynamic Gyro Watch dial and an unmistakable flash of Red brake caliper engineering inspired by the track",
+    "price": 1690,
     "tags": ["accessories"]
   },
   {
     "id": "8757729a-c518-4356-8694-9e795a9b3237",
-    "name": "Forget-Me-Pop",
-    "description": "This innovative bubblegum creates localized amnesia in your target for 5 minutes per piece. Features three brain-tingling flavors: Forgotten Fruit, Mindwipe Mint, and Blank-Berry. Includes warning label: Do not accidentally pop bubble on yourself.",
-    "price": 20,
-    "tags": ["food"]
+    "name": "GT3RS OCTA RED with RED brakes calibrators | Gyro Watch",
+    "description": "Pure Racing Red: A bold, monochromatic statement piece featuring a dynamic Gyro Watch dial and an aggressive, matching Red brake caliper design, capturing the soul of the GT3RS.",
+    "price": 1990,
+    "tags": ["accessories"]
   },
   {
     "id": "d4edfedb-dbe9-4dd9-aae8-009489394955",
-    "name": "Audio-Illusion Spinner",
-    "description": "Professional-grade sonic illusion generator disguised as a simple yo-yo. Creates realistic sound effects from footsteps to full orchestras. Includes comprehensive training manual and anti-tangle technology.",
-    "price": 190,
+    "name": "EQUES WHITE SKETCH WATCH",
+    "description": "Wear a work of art: The EQUES WHITE SKETCH WATCH 2D brings a hand-drawn illusion to life on your wrist, blending minimalist design with artistic flair.",
+    "price": 2990,
     "tags": ["accessories"]
   },
   {
     "id": "a1258cd2-176c-4507-ade6-746dab5ad625",
-    "name": "Aqua Ace GT",
-    "description": "Transform your luxury sports car into a high-speed submarine with the push of a button. Features hydro-jet propulsion, underwater navigation, and oxygen recycling system for up to 8 hours. Includes coral-proof paint coating.",
-    "price": 10000,
-    "tags": ["vehicles"]
+    "name": "RS5 OCTA ORANGE WITH ORANGE BRAKE CALLIPERS | Gyro Watch",
+    "description": "Unleashed Energy: A vibrant, all-Orange monochromatic statement, where the dynamic Gyro Watch dial is perfectly complemented by matching Orange brake caliper detail.",
+    "price": 1900,
+    "tags": ["accessories"]
   },
   {
     "id": "d3104128-1d14-4465-99d3-8ab9267c687b",
-    "name": "SkyCycle X-1000",
-    "description": "Switch from road to air travel instantly with this cutting-edge motorcycle. Features vertical takeoff capability, stealth mode, and auto-stabilization system. Includes emergency parachute and cloud-navigation GPS.",
-    "price": 9000,
-    "tags": ["vehicles"]
+    "name": "FERRARI ROMA with ORANGE brakes calibrators | Gyro Watch",
+    "description": "Italian elegance meets the racetrack: The FERRARI ROMA Gyro Watch captures fluid motion and is accented by the unexpected, brilliant flair of Orange brake caliper detail.",
+    "price": 1790,
+    "tags": ["accessories"]
   },
   {
     "id": "d77f9ae6-e9a8-4a3e-86bd-b72af75cbc49",
-    "name": "Phantom Pursuit",
-    "description": "Create perfect duplicates of your vehicle to confuse pursuers. Features multi-angle projection, realistic physics simulation, and remote control capability. Includes tactical evasion manual.",
-    "price": 15000,
-    "tags": ["vehicles"]
+    "name": "ANIMEE WATCH white | Gyro Watch",
+    "description": "The ANIMEE WHITE timepiece uses a bright, clean canvas to highlight the captivating, subtle movement of its engineered Gyro Watch mechanism.",
+    "price": 1590,
+    "tags": ["accessories"]
   }
 ]
