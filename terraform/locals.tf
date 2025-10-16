@@ -13,7 +13,7 @@ locals {
     Environment = var.environment
     Project     = "retail-store"
     ManagedBy   = "terraform"
-    CreatedBy   = "TrainWithShubhamCommunity"
+    CreatedBy   = "Sujal_MALHOTRA"
     Owner       = data.aws_caller_identity.current.user_id
     CreatedDate = formatdate("YYYY-MM-DD", timestamp())
   }

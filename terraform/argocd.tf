@@ -4,7 +4,7 @@
 
 # Wait for the cluster and add-ons to be ready
 resource "time_sleep" "wait_for_cluster" {
-  create_duration = "30s"
+  create_duration = "120s"
   depends_on = [
     module.retail_app_eks,
     module.eks_addons
@@ -23,6 +23,10 @@ resource "helm_release" "argocd" {
   repository = "https://argoproj.github.io/argo-helm"
   chart      = "argo-cd"
   version    = var.argocd_chart_version
+  
+  timeout = 600  # 10 minutes timeout
+  wait    = true
+  wait_for_jobs = true
 
   # ArgoCD configuration values
   values = [

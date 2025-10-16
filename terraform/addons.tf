@@ -7,9 +7,9 @@ module "eks_addons" {
   version = "~> 1.0"
 
   # Cluster information
-  cluster_name      = module.retail_app_eks.name
+  cluster_name      = module.retail_app_eks.cluster_name
   cluster_endpoint  = module.retail_app_eks.cluster_endpoint
-  cluster_version   = module.retail_app_eks.Kubernetes_version
+  cluster_version   = module.retail_app_eks.cluster_version
   oidc_provider_arn = module.retail_app_eks.oidc_provider_arn
 
   # =============================================================================
@@ -28,7 +28,7 @@ module "eks_addons" {
   ingress_nginx = {
     most_recent = true
     namespace   = "ingress-nginx"
-
+    
     # Basic configuration
     set = [
       {
@@ -56,7 +56,7 @@ module "eks_addons" {
         value = "256Mi"
       }
     ]
-
+    
     # AWS Load Balancer specific annotations
     set_sensitive = [
       {
@@ -87,25 +87,24 @@ module "eks_addons" {
   }
 
   # =============================================================================
-  # MONITORING STACK
+  # OPTIONAL: MONITORING STACK
   # =============================================================================
+  # Uncomment below to enable monitoring (increases costs)
+  
+  # enable_kube_prometheus_stack = var.enable_monitoring
+  # kube_prometheus_stack = {
+  #   most_recent = true
+  #   namespace   = "monitoring"
+  # }
 
-  enable_kube_prometheus_stack = var.enable_monitoring
-
-  kube_prometheus_stack = {
-    most_recent = true
-    namespace   = "monitoring"
-  }
-
-
-  # AWS LOAD BALANCER CONTROLLER
   # =============================================================================
-  enable_aws_load_balancer_controller = true
-
-  aws_load_balancer_controller = {
-    most_recent = true
-    namespace   = "kube-system"
-  }
+  # OPTIONAL: AWS LOAD BALANCER CONTROLLER
+  # =============================================================================
+  # enable_aws_load_balancer_controller = true
+  # aws_load_balancer_controller = {
+  #   most_recent = true
+  #   namespace   = "kube-system"
+  # }
 
   depends_on = [module.retail_app_eks]
 }
