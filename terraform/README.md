@@ -30,17 +30,72 @@ terraform/
 - AWS CLI configured
 - kubectl installed
 
-## Quick Start
+## Deployment Order
 
+**Important**: Deploy infrastructure in this specific order:
+
+1. **VPC** - Network foundation
+2. **EKS Cluster** - Kubernetes cluster
+3. **Add-ons & Applications** - ArgoCD, monitoring, etc.
+
+## Terraform Commands
+
+### 1. Initialize Terraform
 ```bash
-# Initialize Terraform
 terraform init
+```
 
-# Plan deployment
+### 2. Validate Configuration
+```bash
+terraform validate
+```
+
+### 3. Format Code
+```bash
+terraform fmt
+```
+
+### 4. Plan Deployment
+```bash
+# Review what will be created
 terraform plan
+```
 
-# Apply infrastructure
+### 5. Apply Infrastructure
+```bash
+# Apply all resources
 terraform apply
+
+# Auto-approve (skip confirmation)
+terraform apply -auto-approve
+```
+
+### 6. Target Specific Resources
+```bash
+# Deploy only VPC
+terraform apply -target=module.vpc
+
+# Deploy only EKS
+terraform apply -target=module.eks
+```
+
+### 7. View State
+```bash
+# List all resources
+terraform state list
+
+# Show specific resource
+terraform state show aws_vpc.main
+```
+
+### 8. Import Existing Resources
+```bash
+terraform import aws_vpc.main vpc-12345678
+```
+
+### 9. Refresh State
+```bash
+terraform refresh
 ```
 
 ## Configuration
@@ -59,6 +114,21 @@ Key variables in `variables.tf`:
 
 ## Clean Up
 
+### Destroy Infrastructure
 ```bash
+# Destroy all resources
 terraform destroy
+
+# Destroy specific resources
+terraform destroy -target=module.eks
+
+# Auto-approve destruction
+terraform destroy -auto-approve
 ```
+
+### Remove State
+```bash
+# Remove resource from state (without destroying)
+terraform state rm aws_instance.example
+```
+
