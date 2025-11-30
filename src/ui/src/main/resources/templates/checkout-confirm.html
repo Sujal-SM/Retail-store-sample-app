@@ -9,9 +9,9 @@
         <div class="couplet mb-4">
           <div class="picture">
             <img
-              th:src="${item.imageUrl}"
+              th:src="@{/assets/img/products/{itemId}.jpg(itemId=${item.id})}"
               style="height: 60px"
-              src="bootstrap5-ecommerce/images/items/14.webp"
+              src="https://via.placeholder.com/60"
               class="border img-sm rounded"
             />
           </div>
